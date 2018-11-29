@@ -1,0 +1,20 @@
+### PMF ###
+
+===Configuration===
+lambda_u=0.100000, lambda_v=0.100000
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+0 iteration	(patience: 0)
+Loss: -14.63271 Elpased: 0.1168s Converge: -1.000000 Tr: [0.40244, 0.21737, 0.46623] Val: [0.31846, 0.11981, 0.34613] Te: [0.29048, 0.10469, 0.32356]
+1 iteration	(patience: 0)
+Loss: -7.23927 Elpased: 0.1024s Converge: 0.505268 Tr: [0.18976, 0.06697, 0.25878] Val: [0.29727, 0.11586, 0.34038] Te: [0.25320, 0.10303, 0.32098]
+2 iteration	(patience: 0)
+Loss: -6.03996 Elpased: 0.1157s Converge: 0.165668 Tr: [0.15279, 0.05580, 0.23621] Val: [0.30087, 0.11407, 0.33774] Te: [0.26030, 0.10538, 0.32463]
+3 iteration	(patience: 0)
+Loss: -5.43806 Elpased: 0.1037s Converge: 0.099653 Tr: [0.13295, 0.05130, 0.22650] Val: [0.30521, 0.11236, 0.33520] Te: [0.27444, 0.10335, 0.32148]
+4 iteration	(patience: 0)
+Loss: -5.08761 Elpased: 0.1165s Converge: 0.064445 Tr: [0.12049, 0.04889, 0.22112] Val: [0.31342, 0.12100, 0.34785] Te: [0.29055, 0.10641, 0.32620]
+5 iteration	(patience: 1)
+Loss: -4.86933 Elpased: 0.1114s Converge: 0.042903 Tr: [0.11196, 0.04745, 0.21782] Val: [0.32490, 0.13673, 0.36977] Te: [0.30574, 0.11655, 0.34139]
+6 iteration	(patience: 2)
+Loss: -4.72700 Elpased: 0.1221s Converge: 0.029230 Tr: [0.10583, 0.04652, 0.21569] Val: [0.33672, 0.15479, 0.39343] Te: [0.31775, 0.13140, 0.36249]

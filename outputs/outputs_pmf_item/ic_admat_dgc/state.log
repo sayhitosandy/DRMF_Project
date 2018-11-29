@@ -1,0 +1,16 @@
+### PMF ###
+
+===Configuration===
+lambda_u=0.100000, lambda_v=0.100000
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+0 iteration	(patience: 0)
+Loss: -58.47095 Elpased: 0.5445s Converge: -1.000000 Tr: [0.09755, 0.02698, 0.16426] Val: [0.11693, 0.04405, 0.20989] Te: [0.10006, 0.03201, 0.17890]
+1 iteration	(patience: 0)
+Loss: -34.98615 Elpased: 0.5600s Converge: 0.401649 Tr: [0.05632, 0.00691, 0.08314] Val: [0.10250, 0.02985, 0.17277] Te: [0.08880, 0.02025, 0.14229]
+2 iteration	(patience: 0)
+Loss: -30.41668 Elpased: 0.5500s Converge: 0.130608 Tr: [0.04706, 0.00509, 0.07136] Val: [0.10708, 0.03526, 0.18778] Te: [0.09865, 0.02677, 0.16362]
+3 iteration	(patience: 1)
+Loss: -27.70152 Elpased: 0.5468s Converge: 0.089266 Tr: [0.04154, 0.00426, 0.06527] Val: [0.10785, 0.03865, 0.19661] Te: [0.10310, 0.03072, 0.17528]
+4 iteration	(patience: 2)
+Loss: -25.82455 Elpased: 0.5686s Converge: 0.067757 Tr: [0.03770, 0.00377, 0.06138] Val: [0.10672, 0.03988, 0.19971] Te: [0.10397, 0.03253, 0.18035]
