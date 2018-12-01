@@ -1,0 +1,160 @@
+### PMF ###
+
+===Configuration===
+lambda_u=0.100000, lambda_v=0.100000
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+0 iteration	(patience: 0)
+Loss: -1896.60368 Elpased: 2.4396s Converge: -1.000000 Tr: [0.02391, 0.00186, 0.04317] Val: [0.98097, 1.58717, 1.25983] Te: [0.99694, 1.62728, 1.27565]
+1 iteration	(patience: 0)
+Loss: -1778.17413 Elpased: 1.3190s Converge: 0.062443 Tr: [0.02070, 0.00139, 0.03725] Val: [0.95874, 1.50579, 1.22711] Te: [0.97273, 1.55353, 1.24641]
+2 iteration	(patience: 0)
+Loss: -1727.75305 Elpased: 1.3392s Converge: 0.028356 Tr: [0.01946, 0.00118, 0.03437] Val: [0.95374, 1.49011, 1.22070] Te: [0.96668, 1.53380, 1.23847]
+3 iteration	(patience: 0)
+Loss: -1692.21314 Elpased: 1.3413s Converge: 0.020570 Tr: [0.01867, 0.00104, 0.03230] Val: [0.95264, 1.48560, 1.21885] Te: [0.96416, 1.52654, 1.23553]
+4 iteration	(patience: 0)
+Loss: -1664.44238 Elpased: 1.3332s Converge: 0.016411 Tr: [0.01809, 0.00094, 0.03072] Val: [0.95275, 1.48472, 1.21849] Te: [0.96334, 1.52482, 1.23484]
+5 iteration	(patience: 0)
+Loss: -1641.73647 Elpased: 1.3178s Converge: 0.013642 Tr: [0.01764, 0.00087, 0.02946] Val: [0.95349, 1.48533, 1.21874] Te: [0.96345, 1.52551, 1.23511]
+6 iteration	(patience: 1)
+Loss: -1622.64264 Elpased: 1.3157s Converge: 0.011630 Tr: [0.01728, 0.00081, 0.02844] Val: [0.95452, 1.48697, 1.21941] Te: [0.96407, 1.52713, 1.23577]
+7 iteration	(patience: 2)
+Loss: -1606.26730 Elpased: 1.3353s Converge: 0.010092 Tr: [0.01697, 0.00076, 0.02760] Val: [0.95575, 1.48936, 1.22039] Te: [0.96496, 1.52908, 1.23656]
+### DRMF-Item-CNN ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=1.000000
+maxlen_doc=[11,0], maxlen_sent=[35,0]
+emb_dim=200, dimension=50, num_kernel_per_ws=100, dropout_rate=0.20, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+0 iteration	(patience: 0)
+Loss: -55885.58594 Elpased: 41.8319s Converge: -1.000000 Tr: [0.98531, 1.50836, 1.22815] Val: [1.28754, 2.46091, 1.56873] Te: [1.28195, 2.47473, 1.57313]
+1 iteration	(patience: 0)
+Loss: -39905.22174 Elpased: 36.4119s Converge: 0.285948 Tr: [0.53388, 0.51265, 0.71600] Val: [0.79414, 1.08906, 1.04358] Te: [0.82198, 1.17721, 1.08500]
+2 iteration	(patience: 0)
+Loss: -31688.73910 Elpased: 35.6722s Converge: 0.205900 Tr: [0.42332, 0.32139, 0.56691] Val: [0.78869, 1.08653, 1.04237] Te: [0.82050, 1.17656, 1.08469]
+3 iteration	(patience: 0)
+Loss: -26974.13028 Elpased: 33.3755s Converge: 0.148779 Tr: [0.38696, 0.26529, 0.51506] Val: [0.78284, 1.07286, 1.03579] Te: [0.81372, 1.15751, 1.07588]
+4 iteration	(patience: 0)
+Loss: -23986.87777 Elpased: 32.9207s Converge: 0.110745 Tr: [0.37522, 0.25037, 0.50037] Val: [0.77049, 1.05299, 1.02615] Te: [0.80214, 1.13550, 1.06560]
+5 iteration	(patience: 0)
+Loss: -21709.61365 Elpased: 25.7155s Converge: 0.094938 Tr: [0.37289, 0.24477, 0.49474] Val: [0.76521, 1.03850, 1.01907] Te: [0.79582, 1.11937, 1.05800]
+6 iteration	(patience: 0)
+Loss: -20127.64467 Elpased: 33.7735s Converge: 0.072870 Tr: [0.36981, 0.24162, 0.49155] Val: [0.75757, 1.02788, 1.01384] Te: [0.78791, 1.10827, 1.05274]
+7 iteration	(patience: 0)
+Loss: -18793.20218 Elpased: 35.6235s Converge: 0.066299 Tr: [0.36857, 0.23977, 0.48966] Val: [0.75392, 1.02276, 1.01131] Te: [0.78376, 1.10172, 1.04963]
+8 iteration	(patience: 0)
+Loss: -17718.00814 Elpased: 35.6017s Converge: 0.057212 Tr: [0.36633, 0.23835, 0.48821] Val: [0.74812, 1.01612, 1.00803] Te: [0.77880, 1.09571, 1.04676]
+9 iteration	(patience: 0)
+Loss: -16785.02442 Elpased: 35.6909s Converge: 0.052657 Tr: [0.36698, 0.23710, 0.48693] Val: [0.74816, 1.01357, 1.00676] Te: [0.77767, 1.09123, 1.04462]
+10 iteration	(patience: 0)
+Loss: -16075.66705 Elpased: 35.6942s Converge: 0.042261 Tr: [0.36733, 0.23576, 0.48555] Val: [0.74901, 1.01349, 1.00672] Te: [0.77838, 1.09172, 1.04486]
+11 iteration	(patience: 0)
+Loss: -15493.98365 Elpased: 35.7480s Converge: 0.036184 Tr: [0.36475, 0.23444, 0.48419] Val: [0.74370, 1.00914, 1.00456] Te: [0.77332, 1.08757, 1.04287]
+12 iteration	(patience: 0)
+Loss: -14967.01451 Elpased: 36.1241s Converge: 0.034011 Tr: [0.36796, 0.23551, 0.48529] Val: [0.74736, 1.01092, 1.00544] Te: [0.77564, 1.08625, 1.04223]
+13 iteration	(patience: 1)
+Loss: -14459.88429 Elpased: 36.7858s Converge: 0.033883 Tr: [0.36510, 0.23246, 0.48214] Val: [0.74467, 1.00896, 1.00447] Te: [0.77252, 1.08532, 1.04179]
+14 iteration	(patience: 1)
+Loss: -14065.18512 Elpased: 36.4905s Converge: 0.027296 Tr: [0.36570, 0.23121, 0.48084] Val: [0.74720, 1.01092, 1.00545] Te: [0.77523, 1.08993, 1.04400]
+15 iteration	(patience: 2)
+Loss: -13749.20217 Elpased: 36.3331s Converge: 0.022466 Tr: [0.36644, 0.22935, 0.47891] Val: [0.75246, 1.01810, 1.00901] Te: [0.78010, 1.09654, 1.04716]
+### DRMF-Item-CNN_GRU ###
+
+===Configuration===
+lambda_u=1.000000, lambda_v=10.000000
+maxlen_doc=[11,0], maxlen_sent=[35,0]
+emb_dim=200, dimension=50, num_kernel_per_ws=50, dropout_rate=0.70, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+0 iteration	(patience: 0)
+Loss: -52185.62301 Elpased: 41.2983s Converge: -1.000000 Tr: [1.55022, 3.26097, 1.80581] Val: [1.81897, 4.35979, 2.08801] Te: [1.80411, 4.30124, 2.07394]
+1 iteration	(patience: 0)
+Loss: -18166.76850 Elpased: 34.6507s Converge: 0.651882 Tr: [0.64813, 0.65342, 0.80834] Val: [0.87544, 1.24151, 1.11423] Te: [0.88729, 1.28539, 1.13375]
+2 iteration	(patience: 0)
+Loss: -15619.28478 Elpased: 33.0821s Converge: 0.140228 Tr: [0.49502, 0.40996, 0.64028] Val: [0.79431, 1.09471, 1.04629] Te: [0.81495, 1.16150, 1.07773]
+3 iteration	(patience: 0)
+Loss: -14312.24806 Elpased: 34.0612s Converge: 0.083681 Tr: [0.41324, 0.30683, 0.55392] Val: [0.74526, 1.03020, 1.01499] Te: [0.77173, 1.11015, 1.05364]
+4 iteration	(patience: 0)
+Loss: -13421.52296 Elpased: 33.4699s Converge: 0.062235 Tr: [0.38870, 0.27543, 0.52482] Val: [0.73041, 1.00887, 1.00443] Te: [0.75860, 1.09213, 1.04505]
+5 iteration	(patience: 0)
+Loss: -13040.75637 Elpased: 33.0298s Converge: 0.028370 Tr: [0.41394, 0.27965, 0.52882] Val: [0.76462, 1.03491, 1.01731] Te: [0.78953, 1.10738, 1.05232]
+6 iteration	(patience: 1)
+Loss: -12764.91697 Elpased: 33.1136s Converge: 0.021152 Tr: [0.37933, 0.25417, 0.50415] Val: [0.73535, 1.00517, 1.00258] Te: [0.76204, 1.08352, 1.04092]
+7 iteration	(patience: 1)
+Loss: -12507.11774 Elpased: 33.2534s Converge: 0.020196 Tr: [0.38645, 0.25490, 0.50488] Val: [0.74482, 1.01039, 1.00518] Te: [0.77141, 1.08676, 1.04248]
+8 iteration	(patience: 2)
+Loss: -12372.20600 Elpased: 33.2952s Converge: 0.010787 Tr: [0.38483, 0.25220, 0.50219] Val: [0.74481, 1.00982, 1.00490] Te: [0.77231, 1.08818, 1.04316]
+9 iteration	(patience: 2)
+Loss: -12228.11950 Elpased: 32.9208s Converge: 0.011646 Tr: [0.38141, 0.24871, 0.49870] Val: [0.74272, 1.00676, 1.00338] Te: [0.76963, 1.08338, 1.04086]
+10 iteration	(patience: 2)
+Loss: -12030.93166 Elpased: 28.6863s Converge: 0.016126 Tr: [0.36445, 0.24256, 0.49250] Val: [0.72217, 0.99201, 0.99600] Te: [0.75121, 1.07407, 1.03637]
+11 iteration	(patience: 2)
+Loss: -11712.94796 Elpased: 20.4881s Converge: 0.026431 Tr: [0.36787, 0.24258, 0.49252] Val: [0.72654, 0.99280, 0.99640] Te: [0.75577, 1.07429, 1.03648]
+### DRMF-User-CNN_GRU ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=0.100000
+maxlen_doc=[0,7], maxlen_sent=[0,32]
+emb_dim=200, dimension=50, num_kernel_per_ws=50, dropout_rate=0.70, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+0 iteration	(patience: 0)
+Loss: -3495.83199 Elpased: 42.4493s Converge: -1.000000 Tr: [0.18081, 0.05658, 0.23787] Val: [0.96037, 1.42348, 1.19310] Te: [0.97810, 1.47776, 1.21563]
+1 iteration	(patience: 0)
+Loss: -3017.83572 Elpased: 59.0533s Converge: 0.136733 Tr: [0.13493, 0.03097, 0.17597] Val: [0.87115, 1.18213, 1.08726] Te: [0.89235, 1.23331, 1.11055]
+2 iteration	(patience: 0)
+Loss: -2978.73163 Elpased: 59.5512s Converge: 0.012958 Tr: [0.13925, 0.03304, 0.18177] Val: [0.76003, 1.00387, 1.00194] Te: [0.78357, 1.05706, 1.02813]
+3 iteration	(patience: 0)
+Loss: -2944.29466 Elpased: 57.9962s Converge: 0.011561 Tr: [0.13843, 0.03276, 0.18100] Val: [0.74180, 0.97742, 0.98865] Te: [0.76414, 1.03046, 1.01512]
+4 iteration	(patience: 0)
+Loss: -2921.43119 Elpased: 58.8541s Converge: 0.007765 Tr: [0.13763, 0.03242, 0.18006] Val: [0.73519, 0.96560, 0.98265] Te: [0.75769, 1.01976, 1.00983]
+5 iteration	(patience: 0)
+Loss: -2903.97010 Elpased: 57.3413s Converge: 0.005977 Tr: [0.13692, 0.03212, 0.17921] Val: [0.73201, 0.95918, 0.97938] Te: [0.75476, 1.01451, 1.00723]
+6 iteration	(patience: 0)
+Loss: -2897.58402 Elpased: 37.1352s Converge: 0.002199 Tr: [0.13549, 0.03136, 0.17709] Val: [0.73937, 0.96122, 0.98042] Te: [0.76274, 1.01661, 1.00827]
+7 iteration	(patience: 1)
+Loss: -2887.81116 Elpased: 35.5855s Converge: 0.003373 Tr: [0.13653, 0.03198, 0.17883] Val: [0.72325, 0.95086, 0.97512] Te: [0.74627, 1.00821, 1.00410]
+8 iteration	(patience: 1)
+Loss: -2870.32667 Elpased: 34.2420s Converge: 0.006055 Tr: [0.13605, 0.03180, 0.17833] Val: [0.72138, 0.94817, 0.97374] Te: [0.74484, 1.00694, 1.00346]
+9 iteration	(patience: 1)
+Loss: -2852.35110 Elpased: 34.6638s Converge: 0.006263 Tr: [0.13600, 0.03186, 0.17849] Val: [0.71676, 0.94682, 0.97305] Te: [0.74025, 1.00668, 1.00333]
+10 iteration	(patience: 1)
+Loss: -2838.88153 Elpased: 34.1483s Converge: 0.004722 Tr: [0.13477, 0.03124, 0.17676] Val: [0.72236, 0.94733, 0.97331] Te: [0.74734, 1.00738, 1.00368]
+11 iteration	(patience: 2)
+Loss: -2830.88835 Elpased: 34.0546s Converge: 0.002816 Tr: [0.13470, 0.03123, 0.17671] Val: [0.72100, 0.94794, 0.97362] Te: [0.74633, 1.00804, 1.00401]
+### DRMF-Dual-CNN_GRU ###
+
+===Configuration===
+lambda_u=100.000000, lambda_v=10.000000
+maxlen_doc=[11,7], maxlen_sent=[35,32]
+emb_dim=200, dimension=50, num_kernel_per_ws=50, dropout_rate=0.70, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+0 iteration	(patience: 0)
+Loss: -279534.43116 Elpased: 63.6727s Converge: -1.000000 Tr: [4.19309, 18.82244, 4.33848] Val: [4.21378, 18.99702, 4.35856] Te: [4.16969, 18.71212, 4.32575]
+1 iteration	(patience: 0)
+Loss: -248854.47906 Elpased: 52.6752s Converge: 0.109754 Tr: [3.94161, 16.74668, 4.09227] Val: [3.98646, 17.11849, 4.13745] Te: [3.94408, 16.86654, 4.10689]
+2 iteration	(patience: 0)
+Loss: -111813.59376 Elpased: 52.6127s Converge: 0.550687 Tr: [2.48870, 7.49372, 2.73747] Val: [2.61425, 8.13912, 2.85291] Te: [2.57961, 7.98562, 2.82588]
+3 iteration	(patience: 0)
+Loss: -28804.02798 Elpased: 53.7940s Converge: 0.742392 Tr: [1.17551, 1.90657, 1.38079] Val: [1.28487, 2.26440, 1.50479] Te: [1.27812, 2.22277, 1.49090]
+4 iteration	(patience: 0)
+Loss: -15273.02499 Elpased: 53.1126s Converge: 0.469761 Tr: [0.82527, 1.00429, 1.00214] Val: [0.91325, 1.25039, 1.11821] Te: [0.92205, 1.27362, 1.12855]
+5 iteration	(patience: 0)
+Loss: -13033.38049 Elpased: 52.8939s Converge: 0.146641 Tr: [0.75102, 0.85952, 0.92710] Val: [0.83747, 1.08398, 1.04114] Te: [0.85299, 1.12552, 1.06090]
+6 iteration	(patience: 0)
+Loss: -12779.20974 Elpased: 52.7377s Converge: 0.019502 Tr: [0.74960, 0.84661, 0.92011] Val: [0.83694, 1.06974, 1.03428] Te: [0.85352, 1.11262, 1.05481]
+7 iteration	(patience: 0)
+Loss: -11135.93479 Elpased: 52.7221s Converge: 0.128590 Tr: [0.65960, 0.73837, 0.85929] Val: [0.74187, 0.94137, 0.97024] Te: [0.76465, 1.00594, 1.00297]
+8 iteration	(patience: 0)
+Loss: -11561.39560 Elpased: 53.1282s Converge: 0.038206 Tr: [0.69982, 0.76895, 0.87690] Val: [0.78017, 0.97273, 0.98627] Te: [0.80038, 1.02631, 1.01307]
+9 iteration	(patience: 1)
+Loss: -11098.79896 Elpased: 53.2063s Converge: 0.040012 Tr: [0.67300, 0.73940, 0.85989] Val: [0.75133, 0.93522, 0.96707] Te: [0.77428, 0.99569, 0.99784]
+10 iteration	(patience: 1)
+Loss: -11199.96497 Elpased: 53.1751s Converge: 0.009115 Tr: [0.68275, 0.74704, 0.86431] Val: [0.76208, 0.94372, 0.97145] Te: [0.78481, 1.00179, 1.00090]
+11 iteration	(patience: 2)
+Loss: -10634.58289 Elpased: 52.9564s Converge: 0.050481 Tr: [0.63456, 0.70973, 0.84246] Val: [0.71528, 0.90245, 0.94997] Te: [0.74184, 0.97233, 0.98607]
+12 iteration	(patience: 2)
+Loss: -10734.87333 Elpased: 53.1439s Converge: 0.009431 Tr: [0.65557, 0.71704, 0.84678] Val: [0.73441, 0.91118, 0.95456] Te: [0.75971, 0.97439, 0.98711]
