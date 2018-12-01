@@ -1,0 +1,64 @@
+### DRMF-Item-CNN ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=1.000000
+maxlen_doc=[1,0], maxlen_sent=[1,0]
+emb_dim=1, dimension=193, num_kernel_per_ws=100, dropout_rate=0.20, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+### DRMF-Item-CNN ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=1.000000
+maxlen_doc=[1,0], maxlen_sent=[1,0]
+emb_dim=1, dimension=193, num_kernel_per_ws=100, dropout_rate=0.20, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+### DRMF-Item-CNN ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=1.000000
+maxlen_doc=[200,0], maxlen_sent=[200,0]
+emb_dim=200, dimension=193, num_kernel_per_ws=100, dropout_rate=0.20, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+### DRMF-Item-CNN ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=1.000000
+maxlen_doc=[200,0], maxlen_sent=[200,0]
+emb_dim=200, dimension=193, num_kernel_per_ws=100, dropout_rate=0.20, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+### DRMF-Item-CNN ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=1.000000
+maxlen_doc=[200,0], maxlen_sent=[200,0]
+emb_dim=200, dimension=50, num_kernel_per_ws=100, dropout_rate=0.20, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+### DRMF-Item-CNN ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=1.000000
+maxlen_doc=[200,0], maxlen_sent=[200,0]
+emb_dim=200, dimension=50, num_kernel_per_ws=100, dropout_rate=0.20, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+### DRMF-Item-CNN ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=1.000000
+maxlen_doc=[200,0], maxlen_sent=[200,0]
+emb_dim=200, dimension=50, num_kernel_per_ws=100, dropout_rate=0.20, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
+### DRMF-Item-CNN ###
+
+===Configuration===
+lambda_u=10.000000, lambda_v=1.000000
+maxlen_doc=[200,0], maxlen_sent=[200,0]
+emb_dim=200, dimension=50, num_kernel_per_ws=100, dropout_rate=0.20, gru_outdim=50
+
+Tr:Training, Val:Validation, Te:Test, []: [MAE, MSE, RMSE]
