@@ -13,11 +13,11 @@ with open(data, 'r') as f:
 	r = np.loadtxt(f, skiprows=1, dtype='str')
 r = np.array(np.delete(r, 0, 1), dtype=np.int32)
 
-# Read target (item) names
+# Read drug (item) names
 with open(data, 'r') as f:
 	users = np.loadtxt(f, skiprows=1, usecols=(0,), dtype='str')
 
-# Read drug (user) names
+# Read target (user) names
 f = open(data, 'r')
 line = f.readline()
 items = []
