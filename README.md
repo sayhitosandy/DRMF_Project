@@ -29,12 +29,12 @@ All the outputs are stored in `state.log` files in the respective output folders
 
 ### References
 
-1. Wu  et al., Dual-regularized matrix factorization with deep neural networks for recommender systems, Knowledge-Based Systems, Volume 145 (2018), https://doi.org/10.1016/j.knosys.2018.01.003 .
+1. Wu  et al., Dual-regularized matrix factorization with deep neural networks for recommender systems, Knowledge-Based Systems, Volume 145 (2018), https://doi.org/10.1016/j.knosys.2018.01.003 . Code available at: https://www.researchgate.net/publication/325526645_DRMF .
 
 2. Ruslan Salakhutdinov and Andriy Mnih, Probabilistic Matrix Factorization, NIPS, 2008.
 
-3. Ezzat, A., Computational prediction of drug–target interactions using chemogenomic  approaches: an empirical survey, Brief Bioinformm 2018 Jan 24, https://doi.org/10.1093/bib/bby002 .
+3. Ezzat A., Computational prediction of drug–target interactions using chemogenomic  approaches: an empirical survey, Brief Bioinformm 2018 Jan 24, https://doi.org/10.1093/bib/bby002 .
 
-4. Ezzat, A., Drug-target interaction prediction via class imbalance-aware ensemble learning, BMC BioinformaticsBMC series – open, inclusive and trusted  2016, 17 (Suppl 19), https://doi.org/10.1186/s12859-016-1377-y .
+4. Ezzat A., Drug-target interaction prediction via class imbalance-aware ensemble learning, BMC BioinformaticsBMC series – open, inclusive and trusted  2016, 17 (Suppl 19), https://doi.org/10.1186/s12859-016-1377-y .
 
-5. Majumdar, A, FlickScore dataset, http://flickscore.iiitd.edu.in .
+5. Majumdar A, FlickScore dataset, http://flickscore.iiitd.edu.in .
